@@ -19,10 +19,10 @@ const ColorItem = ({color, index}) => {
   };
 
   return (
-    <div style={{backgroundColor: `#${hex}`}} onClick={copyToClipboard}>
-      <p >#{hex}</p>
-      <p >{weight}%</p>
-      <p>rgb: ({rgb.join(', ')})</p>
+    <div className={index > 10 ? 'color text-white' : 'color'} style={{backgroundColor: `#${hex}`}} onClick={copyToClipboard}>
+      <p className='font-medium mb-2'>#{hex}</p>
+      <p className='mb-2'>{weight}%</p>
+      <p className='mb-60'>rgb: ({rgb.join(', ')})</p>
     </div>
   );
 };

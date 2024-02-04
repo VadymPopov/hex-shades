@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .icon {
+        @apply w-7 h-7 transition duration-1000 ease-out hover:scale-125
+    }
+    .color {
+        @apply p-4 cursor-pointer text-base font-normal hover:scale-105 transition ease-out duration-500 
+    }
+}

@@ -2,11 +2,10 @@ import {FaMoon, FaSun} from 'react-icons/fa';
 
 const ThemeToggle = ({toggleTheme, isDarkTheme}) => {
   return (
-    <section >
-        <button onClick={toggleTheme}>{isDarkTheme ? <FaMoon/> : <FaSun/>}
+    <div>
+        <button  onClick={toggleTheme}>{isDarkTheme ? <FaMoon className='icon fill-gray-200' /> : <FaSun className='icon fill-yellow-400 '/>}
         </button>
-      
-    </section>
+    </div>
   )
 }
 
