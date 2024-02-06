@@ -24,4 +24,6 @@ _Hex Shades_ is a lightweight web application that allows users to generate shad
 
 ## Live Page
 
-[vadympopov.github.io/hex-shades/]
+[Hex Shades](https://vadympopov.github.io/hex-shades/)
+
+**Thank you!**
